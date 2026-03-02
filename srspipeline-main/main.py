@@ -9,6 +9,8 @@ API Documentation available at:
 - OpenAPI JSON: http://localhost:8000/openapi.json
 """
 
+
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
