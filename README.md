@@ -46,7 +46,7 @@ The repository is modularized into four distinct domains:
 2. **`srspipeline-main/`**: The generative AI Pipeline
    - Interfaces heavily with the **Google Gemini API**.
    - Contains Logic for formatting outputs into templates like `Agile`, `IEEE`, `Minimal`, and `Startup`.
-   - Automatically validates and corrects poorly formed SRS documents.
+ 
 3. **`whisper-main/`**: Voice-to-Text inference 
    - Uses OpenAI's Whisper model to parse audio files.
    - Returns structured text reflecting the user's spoken software requirements.
